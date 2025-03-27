@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Unidades</title>
+    
+</head>
+<body>
+    <h1>Conversor de Unidades de Comprimento</h1>
+
+    <label for="quantidade">Quantidade: </label>
+    <input type="number" id="quantidade" required><br><br>
+
+    <label for="unidade_origem">Unidade de origem: </label>
+    <select id="unidade_origem">
+        <option value="cm">Centímetros (cm)</option>
+        <option value="m">Metros (m)</option>
+        <option value="km">Quilômetros (km)</option>
+    </select><br><br>
+
+    <label for="unidade_destino">Unidade de destino: </label>
+    <select id="unidade_destino">
+        <option value="cm">Centímetros (cm)</option>
+        <option value="m">Metros (m)</option>
+        <option value="km">Quilômetros (km)</option>
+    </select><br><br>
+
+    <button onclick="converterUnidades()">Converter</button>
+    <script src="script.js"></script>
+</body>
+</html>
